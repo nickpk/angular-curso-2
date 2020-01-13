@@ -6,6 +6,7 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { ComponentModule } from '../components/components.module';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
     declarations:[
@@ -24,6 +25,7 @@ import { ComponentModule } from '../components/components.module';
         SharedModule,
         ComponentModule,
         PAGES_ROUTES,
+        ChartsModule
     ]
 })
 
