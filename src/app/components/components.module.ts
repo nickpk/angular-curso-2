@@ -7,7 +7,7 @@ import { ChartsModule } from 'ng2-charts';
 @NgModule({
   declarations:[
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
   ],
   exports:[
     IncrementadorComponent,
